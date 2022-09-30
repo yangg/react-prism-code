@@ -1,0 +1,18 @@
+{
+  "name": "react-prism-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brook",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.0.21",
+    "prismjs": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.0"
+  }
+}

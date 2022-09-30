@@ -2,18 +2,26 @@
   "name": "react-prism-code",
   "version": "1.0.1",
   "description": "react component highlight code via prismjs",
+  "source": "src/index.tsx",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"OK\""
+    "test": "echo \"OK\"",
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
   "author": "Brook",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^18.0.21",
+    "react": "^18.2.0",
     "prismjs": "^1.29.0"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "@types/prismjs": "^1.26.0"
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^18.0.21",
+    "parcel": "^2.7.0"
   },
   "repository": {
     "type": "git",

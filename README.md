@@ -9,7 +9,7 @@ npm i react-prism-code
 
 ### Block code
 ```jsx
-<Code lang="jsx">{`import { Code, InlineCode } from "./Code";
+<Code lang="jsx">{`import { Code, InlineCode } from "react-prism-code";
 import "prismjs/themes/prism-solarizedlight.css";
 import "prismjs/components/prism-jsx"; // 默认只有 markup, css, clike and javascript
 
@@ -19,7 +19,7 @@ function Hello() {
 ```
 output
 ```jsx
-import { Code, InlineCode } from "./Code";
+import { Code, InlineCode } from "react-prism-code";
 import "prismjs/themes/prism-solarizedlight.css";
 import "prismjs/components/prism-jsx"; // 默认只有 markup, css, clike and javascript
 

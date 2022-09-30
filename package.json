@@ -12,8 +12,8 @@
   "author": "Brook",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0",
-    "prismjs": "^1.29.0"
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0"
   },
   "files": [
     "dist"

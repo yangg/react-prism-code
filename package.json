@@ -1,10 +1,10 @@
 {
   "name": "react-prism-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "react component highlight code via prismjs",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"OK\""
   },
   "author": "Brook",
   "license": "ISC",
@@ -14,5 +14,19 @@
   },
   "devDependencies": {
     "@types/prismjs": "^1.26.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangg/react-prism-code.git"
+  },
+  "keywords": [
+    "react",
+    "prism",
+    "prismjs",
+    "highlight"
+  ],
+  "bugs": {
+    "url": "https://github.com/yangg/react-prism-code/issues"
+  },
+  "homepage": "https://github.com/yangg/react-prism-code#readme"
 }

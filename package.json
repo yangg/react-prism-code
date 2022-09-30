@@ -1,6 +1,6 @@
 {
   "name": "react-prism-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react component highlight code via prismjs",
   "main": "dist/index.js",
   "scripts": {

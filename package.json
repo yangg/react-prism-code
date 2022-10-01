@@ -6,8 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"OK\"",
-    "watch": "parcel watch",
-    "build": "parcel build"
+    "watch": "rollup -c --watch",
+    "build": "rollup -c"
   },
   "author": "Brook",
   "license": "Apache",
@@ -19,9 +19,10 @@
     "dist"
   ],
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.5.0",
     "@types/prismjs": "^1.26.0",
     "@types/react": "^18.0.21",
-    "parcel": "^2.7.0"
+    "rollup": "^2.79.1"
   },
   "repository": {
     "type": "git",
